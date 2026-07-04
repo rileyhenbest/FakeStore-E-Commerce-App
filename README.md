@@ -1,6 +1,6 @@
-# FakeStore E-Commerce App
+# FakeStore E-Commerce App (React CRUD Project)
 
-A responsive e-commerce web application built with React that uses the FakeStoreAPI to simulate real-world product management. This project demonstrates full CRUD functionality (Create, Read, Update, Delete) using API requests along with modern React practices.
+A responsive e-commerce web application built with React that uses the FakeStoreAPI to simulate real-world product management. This project demonstrates full CRUD functionality (Create, Read, Update, Delete) using API requests along with modern React practices and component-based architecture.
 
 ---
 
@@ -29,3 +29,23 @@ A responsive e-commerce web application built with React that uses the FakeStore
 ---
 
 ## Project Structure
+src/
+│
+├── components/
+│ ├── NavbarComponent.jsx
+│ ├── ProductCard.jsx
+│ ├── LoadingSpinner.jsx
+│ └── DeleteModal.jsx
+│
+├── pages/
+│ ├── Home.jsx
+│ ├── Products.jsx
+│ ├── ProductDetails.jsx
+│ ├── AddProduct.jsx
+│ └── EditProduct.jsx
+│
+├── services/
+│ └── api.js
+│
+├── App.jsx
+└── main.jsx
